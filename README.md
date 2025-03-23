@@ -6,6 +6,8 @@ Identify the student's answer from the given image.
 
 ![image](image/image.png)
 
+The expected output is `Unknown`
+
 ## Response Format
 
 ```json
