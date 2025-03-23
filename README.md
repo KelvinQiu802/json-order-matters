@@ -1,10 +1,13 @@
 # Result
 
 ## Task
+
 Identify the student's answer from the given image.
+
 ![image](image/image.png)
 
 ## Response Format
+
 ```json
 {
     "answer": string,
@@ -13,12 +16,24 @@ Identify the student's answer from the given image.
 ```
 
 ## Method
-Run 20 times for each method (Answer First and Reason First). Calculate the correct percentage for each method.
+Run `20` times for each method (Answer First and Reason First). Calculate the correct percentage for each method.
 
 ## Result
 
 - Answer First: `0%`
 - Reason First: `100%`
+
+
+## Conclusion
+
+- In structured output, the order of JSON field output has a significant impact on performance.
+
+- Acquiring more thought tokens before generating the answer field can enhance the accuracy of the answer.
+
+## Reference
+
+- [Order of JSON fields can hurt your LLM output](https://www.reddit.com/r/LangChain/comments/1hssvvq/order_of_json_fields_can_hurt_your_llm_output/)
+- [Structured outputs can hurt the performance of LLMs](https://dylancastillo.co/posts/say-what-you-mean-sometimes.html)
 
 ## Log
 
